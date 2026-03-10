@@ -141,74 +141,104 @@
 % \raisebox{-0.00\height}\faLinkedin\ username \ | \ \raisebox{-0.05\height}\faGlobe \ mysite.com  & \hfill \emoji{calling} number
 % \end{tabularx}
 
-\begin{tabularx}{\linewidth}{@{} C @{}}
-\Huge{Your Name} \\[7.5pt]
-\href{https://github.com/username}{\raisebox{-0.05\height}\faGithub\ username} \ $|$ \ 
-\href{https://linkedin.com/in/username}{\raisebox{-0.05\height}\faLinkedin\ username} \ $|$ \ 
-\href{https://mysite.com}{\raisebox{-0.05\height}\faGlobe \ mysite.com} \ $|$ \ 
-\href{mailto:email@mysite.com}{\raisebox{-0.05\height}\faEnvelope \ email@mysite.com} \ $|$ \ 
-\href{tel:+000000000000}{\raisebox{-0.05\height}\faMobile \ +00.00.000.000} \\
+\begin{tabularx}{\linewidth}{@{} X r @{}}
+    \begin{minipage}[b]{\fullcollw}
+        \Huge\textbf{Lin Mohan} \\[7.5pt]
+        \small
+        \href{https://github.com/linmoh}{\raisebox{-0.05\height}\faGithub\ linmoh} \ $|$ \ 
+        \href{https://linmohan.net}{\raisebox{-0.05\height}\faGlobe \ linmohan.net} \\
+        \href{https://linmohan.fun}{\raisebox{-0.05\height}\faBlog \ linmohan.fun} \ $|$ \ 
+        \href{mailto:linmhwork@outlook.com}{\raisebox{-0.05\height}\faEnvelope \ linmhwork@outlook.com}
+    \end{minipage} & 
+    \begin{minipage}[b]{3cm} % 调整头像宽度
+        \flushright
+        \includegraphics[width=2.8cm, height=2.8cm, keepaspectratio]{avatar.jpg}
+    \end{minipage}
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
-% EXPERIENCE SECTIONS
+%   SUMMARY
 %----------------------------------------------------------------------------------------
-
-%Interests/ Keywords/ Summary
 \section{Summary}
-This CV can also be automatically compiled and published using GitHub Actions. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
+Grade 9 student and open-source enthusiast focused on \textbf{Systems Programming and Linux Kernels}; a \textbf{Linux Kernel contributor} with hands-on experience in PCI-related debugging and hardware-level analysis. As the founder of \textbf{TATEN}, a collaborative student developer community, I lead technical initiatives across age groups. Recognized for \textbf{Academic Excellence}, I was awarded \textbf{Direct Admission} to senior high school (skipping the Zhongkao) based on a consistent Top 40 ranking and all-around performance.
 
-%Experience
-\section{Work Experience}
+%----------------------------------------------------------------------------------------
+% EXPERIENCE
+%----------------------------------------------------------------------------------------
+\section{Experience}
 
-\begin{jobshort}{Designation}{Jan 2021 - present}
-long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width
-\end{jobshort}
+\begin{joblong}{Linux Kernel Bug Contributor}{Feb 2026}
+\item \textbf{Issue Identification}: Identified and reported a PCI-related regression in the Linux kernel community.
+\item \textbf{Debugging}: Investigated kernel driver behavior via system logs; verified system configurations and collaborated with upstream maintainers for resolution.
+\item \textbf{Systems Knowledge}: Demonstrated deep understanding of low-level hardware-software interaction and kernel development workflows.
+\end{joblong}
 
-
-\begin{joblong}{Designation}{Mar 2019 - Jan 2021}
-\item long long line of blah blah that will wrap when the table fills the column width
-\item again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah. again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah
+\begin{joblong}{Founder \& Lead Organizer, TATEN Community}{Jul 2025 - Present}
+\item \textbf{Community Leadership}: Founded a technical community of 14+ members (ranging from middle school to undergraduates) to foster collaborative learning in CS.
+\item \textbf{Project Management}: Spearheaded the development of \textbf{TATEN OJ} and \textbf{AniDay}, coordinating version control and technical roadmaps.
+\item \textbf{Infrastructure}: Built and maintain the official portal (\href{https://taten.org}{taten.org}) and managed internal DevOps for community projects.
 \end{joblong}
   
-%Projects
+%----------------------------------------------------------------------------------------
+% PROJECTS
+%----------------------------------------------------------------------------------------
 \section{Projects}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Some Project} & \hfill \href{https://some-link.com}{Link to Demo} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
+\textbf{AniDay} \small{(HTML, CSS, JavaScript)} & \hfill \href{https://aniday.xyz}{aniday.xyz} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{A high-performance web application for querying anime character data. Optimized data retrieval logic and frontend responsiveness for a seamless user experience.}  \\
+\end{tabularx}
+
+\vspace{4pt}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{TATEN Online Judge} \small{(Vue, Rust)} & \hfill In Development \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Designing a lightweight, containerized online judge system. Focus on secure code execution (sandboxing) and low-latency performance.}  \\
+\end{tabularx}
+
+\vspace{4pt}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Student Computer Handbook} \small{(Markdown)} & \hfill In Progress \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Authoring a comprehensive guide on modern computing for students, covering Linux basics, Git, and programming fundamentals.}  \\
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
-%	EDUCATION
+%   HONORS & AWARDS
+%----------------------------------------------------------------------------------------
+\section{Honors \& Awards}
+
+\begin{tabularx}{\linewidth}{@{}l X r@{}}
+2025 & \textbf{First Prize}, 26th Jinan Student Information Literacy Activity & Municipal \\
+     & \textit{Project: Algorithm and Data Visualization Toolset} & \\
+2024 & \textbf{Second Prize}, 25th Jinan Student Information Literacy Activity & Municipal \\
+     & \textit{Project: Educational Game Collection} & \\
+2023 & \textbf{Municipal Outstanding Student}, Jinan Education Bureau & City-level \\
+     & \textit{Selected from the top 0.9\% of students for exemplary academic performance, moral character, and all-around comprehensive qualities.} & \\
+2023 & \textbf{Second Prize}, 24th Jinan Student Information Literacy Activity & Municipal \\
+     & \textit{Project: Conway's Game of Life (Simulation)} & \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%   EDUCATION
 %----------------------------------------------------------------------------------------
 \section{Education}
-\begin{tabularx}{\linewidth}{@{}l X@{}}	
-2030 - present & PhD (Subject) at \textbf{University} \hfill \normalsize (GPA: 4.0/4.0) \\
 
-2023 - 2027 & Bachelor's Degree at \textbf{College} \hfill (GPA: 4.0/4.0) \\ 
-
-2022 & Class 12th Some Board \hfill  (Grades) \\
-
-2021 & Class 10th Some Board \hfill  (Grades) \\
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+2025 -- 2029 & \textbf{Pingyin Experimental Senior High School}, Jinan, China \\
+2023 -- 2025 & \textbf{Pingyin Experimental Senior High School (Junior Division)} \\
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
-%	PUBLICATIONS
-%----------------------------------------------------------------------------------------
-\section{Publications}
-\begin{refsection}[citations.bib]
-\nocite{*}
-\printbibliography[heading=none]
-\end{refsection}
-
-%----------------------------------------------------------------------------------------
-%	SKILLS
+%   SKILLS
 %----------------------------------------------------------------------------------------
 \section{Skills}
+
 \begin{tabularx}{\linewidth}{@{}l X@{}}
-Some Skills &  \normalsize{This, That, Some of this and that etc.}\\
-Some More Skills  &  \normalsize{Also some more of this, Some more that, And some of this and that etc.}\\  
+\textbf{Systems \& Low-level} & \normalsize{Linux (Arch Linux), Kernel Debugging, Shell Scripting, Git, DevOps} \\
+\textbf{Programming} & \normalsize{C/C++, Python, Rust, Data Structures \& Algorithms, JavaScript} \\
+\textbf{Web Development} & \normalsize{Vue.js, HTML5/CSS3, Frontend Performance Optimization} \\
+\textbf{Multimedia Tools} & \normalsize{Blender (3D Modeling), AE/PR (Video Synthesis), PS/AI (Visual Design)} \\
 \end{tabularx}
 
 \vfill

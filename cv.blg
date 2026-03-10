@@ -1,0 +1,9 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'cv.blg'
+[24] biber:342> INFO - === 三 3月 11, 2026, 00:36:16
+[30] Biber.pm:421> INFO - Reading 'cv.bcf'
+[53] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
+[59] bbl.pm:676> INFO - Writing 'cv.bbl' with encoding 'UTF-8'
+[59] bbl.pm:779> INFO - Output to cv.bbl
+[59] Biber.pm:132> WARN - The file 'cv.bcf' does not contain any citations!
+[59] Biber.pm:134> INFO - WARNINGS: 1
